@@ -15,6 +15,6 @@ print("-------------------------------")
 #Matriz forma 4
 print (f"C = \n{C}")
 print("-------------------------------")
-#ahora multipliquemos dos matrices
+#ahora ojo con numpy, ya que esto es una multiplicacion de arreglos
 D=A*B
 print (f"D = \n{D}")
