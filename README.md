@@ -57,13 +57,13 @@
     * respuesta
     
   * ¿Qué versión de python está usando? :
-    * respuesta
+    * Python 3.8.1 
     
   * ¿Qué versión de numpy está usando? :
-    * respuesta
+    * 1.18.5
     
   * Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen de su uso de procesador durante alguna corrida para confirmar :
-    * respuesta
+    * Para ver 
   
   
   
