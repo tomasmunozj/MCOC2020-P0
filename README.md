@@ -1,7 +1,10 @@
-## TOMÁS MUÑOZ JIMENEZ
+# TOMÁS MUÑOZ JIMENEZ
+
 ## MCOC2020-P0
 
-# MI COMPUTADOR : 
+# ENTREGA1
+
+## MI COMPUTADOR : 
 * Nombre del modelo :                MacbookAir 7,2
 * Año de adquisición :               2018
 * Tipo :                             Notebook
@@ -39,8 +42,9 @@
 
 * OTROS :
   * Unidad de estado sólido SSD :      128 GB
-  
-# DESEMPEÑO MATMUL  
+ 
+# ENTREGA 2 
+## DESEMPEÑO MATMUL  
   ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/grafico%20corridas.png?raw=true)
   
   * ¿Como difiere del gráfico del profesor/ayudante? :
