@@ -56,8 +56,8 @@
     * En mi caso, la diferencia del gráfico tiempo transcurrido, se pueden deber a que el computador del profesor/ayudante es mucho más potente que el computador del alumno, por lo que al ejecutar el codigo, este presente demoras en comenzar a correr. 
     
   * El gráfico de uso de memoria es lineal con el tamaño de matriz, pero el de tiempo transcurrido no lo es ¿porqué puede ser? :
-    * respuesta
-    
+    * Esto se debe a que en el gráfico de uso de memoria, esta se calculo mediante una formula, asumiendo que cada componente usa 8 bytes, por lo que independiente de la matriz, siempre se utilizará la formula para el calcula de la memoria, por lo que siempre será lineal.
+    * Por otro lado, en el gráfico de tiempo transcurrido, este no es lineal, ya que va a depender de varios factores que serán distintos para cada computador, memoria, procesadores, nucleos, etc.
   * ¿Qué versión de python está usando? :
     * Python 3.8.1 
     
