@@ -1,5 +1,5 @@
-# TOMÁS MUÑOZ JIMENEZ
-# MCOC2020-P0
+## TOMÁS MUÑOZ JIMENEZ
+## MCOC2020-P0
 
 # MI COMPUTADOR : 
 * Nombre del modelo :                MacbookAir 7,2
@@ -40,5 +40,5 @@
 * OTROS :
   * Unidad de estado sólido SSD :      128 GB
   
-  
+# DESEMPEÑO MATMUL  
   ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/grafico%20corridas.png?raw=true)
