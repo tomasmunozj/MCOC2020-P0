@@ -48,7 +48,8 @@
   ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/grafico%20corridas.png?raw=true)
   
   * ¿Como difiere del gráfico del profesor/ayudante? :
-    * respuesta
+    * Para el caso del gráfico de tiempo transcurrido, existen diferencias notorias al principio de este, especialmente para el primer punto (N=3) de algunas    corridas. Esta diferencia es que en el gráfico obtenido por el alumno se demora más que el obtenido por el profesor/ayudante. Luego de el primer punto el gráfico comienza a ser practicamente igual, claramente aumentando el tiempo a medida que aumenta el tamaño de la matriz.
+    * Para el caso del gráfico de memoria utilizada, los gráficos son practicamente iguales, por lo que no se presentan diferecias entre el gráfico del alumno, con el del profesor/ayudante
     
   * ¿A qué se pueden deber las diferencias? :
     * respuesta
