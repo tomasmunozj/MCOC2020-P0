@@ -65,7 +65,7 @@
     * 1.18.5
     
   * Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen de su uso de procesador durante alguna corrida para confirmar :
-    * En mi caso, mi computador (macbookAir) tiene sólo un procesador, por lo que es lógico y obveo que al ejecutar un codigo se utilizará 1 procesador.
+    ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/Captura%20de%20Pantalla%202020-08-07%20a%20la(s)%2022.47.18.png?raw=true)
   
   
   
