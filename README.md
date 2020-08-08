@@ -39,3 +39,6 @@
 
 * OTROS :
   * Unidad de estado sólido SSD :      128 GB
+  
+  
+  ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/grafico%20corridas.png?raw=true)
