@@ -44,15 +44,16 @@
   * Unidad de estado sólido SSD :      128 GB
  
 # ENTREGA 2 
+
 ## DESEMPEÑO MATMUL  
   ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/grafico%20corridas.png?raw=true)
   
   * ¿Como difiere del gráfico del profesor/ayudante? :
     * Para el caso del gráfico de tiempo transcurrido, existen diferencias notorias al principio de este, especialmente para el primer punto (N=3) de algunas    corridas. Esta diferencia es que en el gráfico obtenido por el alumno se demora más que el obtenido por el profesor/ayudante. Luego de el primer punto el gráfico comienza a ser practicamente igual, claramente aumentando el tiempo a medida que aumenta el tamaño de la matriz.
-    * Para el caso del gráfico de memoria utilizada, los gráficos son practicamente iguales, por lo que no se presentan diferecias entre el gráfico del alumno, con el del profesor/ayudante
+    * Para el caso del gráfico de memoria utilizada, los gráficos son practicamente iguales, por lo que no se presentan diferecias entre el gráfico del alumno, con el del profesor/ayudante.
     
   * ¿A qué se pueden deber las diferencias? :
-    * respuesta
+    * En mi caso, la diferencia del gráfico tiempo transcurrido, se pueden deber a que el computador del profesor/ayudante es mucho más potente que el computador del alumno, por lo que al ejecutar el codigo, este presente demoras en comenzar a correr. 
     
   * El gráfico de uso de memoria es lineal con el tamaño de matriz, pero el de tiempo transcurrido no lo es ¿porqué puede ser? :
     * respuesta
@@ -64,7 +65,7 @@
     * 1.18.5
     
   * Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen de su uso de procesador durante alguna corrida para confirmar :
-    * Para ver 
+    * En mi caso, mi computador (macbookAir) tiene sólo un procesador, por lo que es lógico y obveo que al ejecutar un codigo se utilizará 1 procesador.
   
   
   
