@@ -66,6 +66,8 @@
     
   * Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen de su uso de procesador durante alguna corrida para confirmar :
   
+    * En mi caso, mi computador (macbookAir) tiene sólo un procesador, es decir, dos nucleos, cómo podemos ver en las siguientes imagenes, en la ejecución del codigo se utiliza sólo un porcentaje de la cpu.
+  
     * ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/Captura%20de%20Pantalla%202020-08-07%20a%20la(s)%2022.47.18.png?raw=true)
     
     * ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/Captura%20de%20Pantalla%202020-08-07%20a%20la(s)%2022.46.58.png?raw=true)
