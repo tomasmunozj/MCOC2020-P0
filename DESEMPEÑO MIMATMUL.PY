@@ -100,7 +100,7 @@ plt.savefig("filename.png",dpi=500)
 
 
 
-![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/grafico%20corridas.png?raw=true)
+
 
 
 
