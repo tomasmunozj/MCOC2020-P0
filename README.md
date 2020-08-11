@@ -49,19 +49,25 @@
   ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/grafico%20corridas.png?raw=true)
   
   * ¿Como difiere del gráfico del profesor/ayudante? :
+  
     * Para el caso del gráfico de tiempo transcurrido, existen diferencias notorias al principio de este, especialmente para el primer punto (N=3) de algunas    corridas. Esta diferencia es que en el gráfico obtenido por el alumno se demora más que el obtenido por el profesor/ayudante. Luego de el primer punto el gráfico comienza a ser practicamente igual, claramente aumentando el tiempo a medida que aumenta el tamaño de la matriz.
     * Para el caso del gráfico de memoria utilizada, los gráficos son practicamente iguales, por lo que no se presentan diferecias entre el gráfico del alumno, con el del profesor/ayudante.
     
   * ¿A qué se pueden deber las diferencias? :
+  
     * En mi caso, la diferencia del gráfico tiempo transcurrido, se pueden deber a que el computador del profesor/ayudante es mucho más potente que el computador del alumno, por lo que al ejecutar el codigo, este presente demoras en comenzar a correr. 
     
   * El gráfico de uso de memoria es lineal con el tamaño de matriz, pero el de tiempo transcurrido no lo es ¿porqué puede ser? :
+  
     * Esto se debe a que en el gráfico de uso de memoria, esta se calculo mediante una formula, asumiendo que cada componente usa 8 bytes, por lo que independiente de la matriz, siempre se utilizará la formula para el calcula de la memoria, por lo que siempre será lineal.
     * Por otro lado, en el gráfico de tiempo transcurrido, este no es lineal, ya que va a depender de varios factores que serán distintos para cada computador, memoria, procesadores, nucleos, etc.
+    
   * ¿Qué versión de python está usando? :
+  
     * Python 3.8.1 
     
   * ¿Qué versión de numpy está usando? :
+  
     * 1.18.5
     
   * Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen de su uso de procesador durante alguna corrida para confirmar :
@@ -78,6 +84,32 @@
 ## DESEMPEÑO MIMATMUL 
   
   * ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/filename.png?raw=true)
+  
+  * ¿Como difiere del gráfico del profesor/ayudante? :
+  
+    * Para el caso del gráfico de tiempo transcurrido, existen diferencias notorias al principio de este, especialmente para el primer punto (N=3) de algunas    corridas. Esta diferencia es que en el gráfico obtenido por el alumno se demora más que el obtenido por el profesor/ayudante. Luego de el primer punto el gráfico comienza a ser practicamente igual, claramente aumentando el tiempo a medida que aumenta el tamaño de la matriz.
+    * Para el caso del gráfico de memoria utilizada, los gráficos son practicamente iguales, por lo que no se presentan diferecias entre el gráfico del alumno, con el del profesor/ayudante.
+    
+  * ¿A qué se pueden deber las diferencias? :
+  
+    * En mi caso, la diferencia del gráfico tiempo transcurrido, se pueden deber a que el computador del profesor/ayudante es mucho más potente que el computador del alumno, por lo que al ejecutar el codigo, este presente demoras en comenzar a correr. 
+    
+  * El gráfico de uso de memoria es lineal con el tamaño de matriz, pero el de tiempo transcurrido no lo es ¿porqué puede ser? :
+  
+    * Esto se debe a que en el gráfico de uso de memoria, esta se calculo mediante una formula, asumiendo que cada componente usa 8 bytes, por lo que independiente de la matriz, siempre se utilizará la formula para el calcula de la memoria, por lo que siempre será lineal.
+    * Por otro lado, en el gráfico de tiempo transcurrido, este no es lineal, ya que va a depender de varios factores que serán distintos para cada computador, memoria, procesadores, nucleos, etc.
+    
+  * ¿Qué versión de python está usando? :
+  
+    * Python 3.8.1 
+    
+  * ¿Qué versión de numpy está usando? :
+  
+    * 1.18.5
+    
+  * Durante la ejecución de su código ¿se utiliza más de un procesador? Muestre una imagen de su uso de procesador durante alguna corrida para confirmar :
+  
+    * En mi caso, mi computador (macbookAir) tiene sólo un procesador, es decir, dos nucleos, cómo podemos ver en las siguientes imagenes, en la ejecución del codigo se utiliza el único procesador que tiene el computador.
   
   
   
