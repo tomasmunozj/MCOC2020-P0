@@ -113,9 +113,15 @@
     
     * ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/Captura%20de%20Pantalla%202020-08-10%20a%20la(s)%2022.02.50.png?raw=true)
   
-  # ENTREGA4
+  # ENTREGA4 :
+  ### Comentarios :
   
-  * Qué algoritmo de inversión cree que utiliza cada método? 
+  * Como se pueden observar en los graficos subidos en el repositorio, las funciones "numpy.linalg.inv"  y "scipy.linalg.inv" son relativamente iguales en terminos de desempeño, practicamente los graficos son iguales y las diferencias que presentan son minimas. En terminos de procesador, en mi caso las dos funciones usan el único procesador presente en mi computador, llegando a usar incluso más del 100% de él en su máximo. Tambien hubieron "bumbs" en terminos de procesador, ya que muchas veces variaba el porcentaje de utilizacion del procesador, variando entre 60% hasta 130%
+  * Por otro lado, la funcion overwrite_a=True de scipy resultó en una ganancia de desempeño, la cual fue muy mínima. Si bien ayudo en tiempo, en terminos de procesador resulto usando mas del 100%, por lo cual no se obtuvo ganancia en procesador.
+  * En las siguientes imagenes, se pueden observar desempeños de mi procesador en la ejecucion del codigo, en donde se aprecian las variaciones de procentaje mencionadas anteriormente :
+  
+  
+  * ¿Qué algoritmo de inversión cree que utiliza cada método? 
       
     * El metodo utilizado de inversion de matriz es linalg.inv importado mediante from scipy import linalg, es decir, un metodo de algebra lineal que proporcionan implementaciones eficientes de bajo nivel. Estas bibliotecas son multiprocesos, por lo que dependen del procesador del computador.
       * Fuente : https://numpy.org/doc/stable/reference/routines.linalg.html#module-numpy.linalg
