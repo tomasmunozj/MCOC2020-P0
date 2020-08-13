@@ -115,6 +115,15 @@
   
   # ENTREGA4
   
+    * ¿Qué algoritmo de inversión cree que utiliza cada método (ver wiki)?
+      
+      * El metodo utilizado de inversion de matriz es linalg.inv importado mediante from scipy import linalg, es decir, un metodo de algebra lineal que proporcionan implementaciones eficientes de bajo nivel. Estas bibliotecas son multiprocesos, por lo que dependen del procesador del computador.
+      * Fuente : https://numpy.org/doc/stable/reference/routines.linalg.html#module-numpy.linalg
+      
+    * ¿Como incide el paralelismo y la estructura de caché de su procesador en el desempeño en cada caso? (Ver clase 10 Agosto)
+    
+      * 
+  
   
   
   
