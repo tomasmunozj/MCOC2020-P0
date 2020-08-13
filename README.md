@@ -116,8 +116,15 @@
   # ENTREGA4 :
   ### Comentarios :
   
-  * Como se pueden observar en los graficos subidos en el repositorio, las funciones "numpy.linalg.inv"  y "scipy.linalg.inv" son relativamente iguales en terminos de desempeño, practicamente los graficos son iguales y las diferencias que presentan son minimas. En terminos de procesador, en mi caso las dos funciones usan el único procesador presente en mi computador, llegando a usar incluso más del 100% de él en su máximo. Tambien hubieron "bumbs" en terminos de procesador, ya que muchas veces variaba el porcentaje de utilizacion del procesador, variando entre 60% hasta 130%
-  * Por otro lado, la funcion overwrite_a=True de scipy resultó en una ganancia de desempeño, la cual fue muy mínima. Si bien ayudo en tiempo, en terminos de procesador resulto usando mas del 100%, por lo cual no se obtuvo ganancia en procesador.
+  
+  * Lo primero, fue realizar tres casos en esta entrega, en donde cada caso constaba de 4 archivos de python con sus respectivos graficos, el caso 1 se realizo mediante numpy, mientras que los casos 2 y 3 fueron realizados mediante scipy.
+  
+  * Como se pueden observar en los graficos subidos en el repositorio, las funciones "numpy.linalg.inv"  y "scipy.linalg.inv" son relativamente iguales en terminos de desempeño, practicamente los graficos son iguales y las diferencias que presentan son minimas. En terminos de procesador, en mi caso las dos funciones usan el único procesador presente en mi computador, llegando a usar incluso más del 100% de él en su máximo. Tambien hubieron "bumbs" en terminos de procesador, ya que muchas veces variaba el porcentaje de utilizacion del procesador, variando entre 60% hasta 130%.
+  
+  * En terminos de memoria, es evidente que mientras más pesados sean los tipos de datos, más bytes se utilizaran en la ejecución del codigo y por lo tanto más tiempo se demorara en la ejecucion de esta.
+  
+  * Por otro lado, la funcion overwrite_a=True de scipy resultó en una ganancia de desempeño, la cual fue muy mínima. Si bien ayudo en tiempo, en terminos de procesador resulto usando mas del 100% al igua que sin la funcion overwrite, por lo la ayuda fue diminuta.
+  
   * En las siguientes imagenes, se pueden observar desempeños de mi procesador en la ejecucion del codigo, en donde se aprecian las variaciones de procentaje mencionadas anteriormente :
   
    * ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/Captura%20de%20Pantalla%202020-08-12%20a%20la(s)%2023.55.16.png?raw=true)
