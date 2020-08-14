@@ -114,8 +114,8 @@
     * ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/Captura%20de%20Pantalla%202020-08-10%20a%20la(s)%2022.02.50.png?raw=true)
   
   # ENTREGA4 :
-  ### Comentarios :
   
+  ### Comentarios :
   
   * Lo primero, fue realizar tres casos en esta entrega, en donde cada caso constaba de 4 archivos de python con sus respectivos graficos, el caso 1 se realizo mediante numpy, mientras que los casos 2 y 3 fueron realizados mediante scipy.
   
@@ -142,6 +142,14 @@
       *
       
   # ENTREGA5 :
+  
+  ### ALGUNOS COMENTARIOS DE LA TAREA : 
+  
+  * 
+  
+  
+  * ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/ENTREGA5.png?raw=true)
+   
   
   
   
