@@ -140,7 +140,8 @@
     * ¿Como incide el paralelismo y la estructura de caché de su procesador en el desempeño en cada caso? (Ver clase 10 Agosto)
     
       *
-  
+      
+  # ENTREGA5 :
   
   
   
