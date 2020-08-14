@@ -148,7 +148,7 @@
   * 
   
   
-  * ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/ENTREGA5.png?raw=true)
+  * ![alt text](?raw=true)
    
   
   
