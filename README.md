@@ -145,7 +145,7 @@
   
   ### ALGUNOS COMENTARIOS DE LA TAREA : 
   
-  * 
+  * Como se puede apreciar en el gráfico, y como es de esperarse, el método de resolver Ax=b resulta en una pequeña ganancia de desempeño al aumentar el tamaño de la matriz con el solver de numpy. En un principio, la resolución de Ax=b, para matrices de tamaño pequeño, resulta un poco más rápido con python puro, pero ya al ir aumentando el tamaño de la matriz, comienza a obtener ventaja el método con numpy, para luego, tamaños muy grandes, encontrar un balance entre el método de python puro y el solver de numpy.
   
   
   * ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/ENTREGA5.png?raw=true)
