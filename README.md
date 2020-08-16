@@ -155,7 +155,7 @@
   ### ALGUNOS COMENTARIOS DE LA ENTREGA : 
    
   * ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/entrega6.png?raw=true)
-  * ![alt text](?raw=true)
+  * ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/entrega_6.png?raw=true)
   
   
   
