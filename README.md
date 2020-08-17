@@ -153,6 +153,8 @@
   # ENTREGA6
   
   ### ALGUNOS COMENTARIOS DE LA ENTREGA : 
+  
+  ### GRAFICO : 
    
   * ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/ENTREGA6.png?raw=true)
 
