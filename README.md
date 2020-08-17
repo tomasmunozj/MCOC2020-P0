@@ -172,7 +172,12 @@
   * Como se puede apreciar en el grafico y como es de esperarse, (solo en algunos casos), el solver scipy sin parametro, es el metodo de resolucion más lenta para una matriz de tamaño menor a 10. para matrices de tamaño alto(matrices mayor a 1000) se observa que el a pesar de que todos los solvers tienden a un equilibrio en terminos de demora, los más lentos son el metodo de INV de scipy y tambien en menor medida, sigue apareciendo el solver de scipy sin parametro. Por otro lado, el solver que se mantuvo más constante, y relativamente más rapido fue el solver de scipy con parametro symmetric, lo cual era de esperarse que se obtuviera una ganancia de desempeño(minima). Tambien el solver que reacciono más rapido para matrices muy pequeñas(menor a 10) fue el solver de numpy.
   * Finalmente se concluye, en base a las diferentes corridas que el alumno hizo antes de presentar el trabajo, que el metodo de symmetric, puede generar una ganancia de desempeño, independiente el tamaño de la matriz, y que a matrices de tamaño elevadas, el metodo de INV de scipy es el que más demora.
    
+  ### FOTOS DEL DESEMPEÑO DE MI PROCESADOR, NUCLEOS, MEMORIA ETC
   
+   * ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/Captura%20de%20Pantalla%202020-08-17%20a%20la(s)%2010.31.56.png?raw=true)
+   
+   * ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/Captura%20de%20Pantalla%202020-08-17%20a%20la(s)%2010.33.19.png?raw=true)
+ 
   ### GRAFICO : 
    
   * ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/ENTREGA6.png?raw=true)
