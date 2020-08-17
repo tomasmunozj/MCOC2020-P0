@@ -154,6 +154,25 @@
   
   ### ALGUNOS COMENTARIOS DE LA ENTREGA : 
   
+  * En esta entrega, para el desempeño Ax=b con diferentes solvers de numpy y principalmente scipy, se utilizaron en mi caso, 4 solvers de scipy, 1 solver de numpy, y un comando de scipy llamado Inv. 
+  
+  * los solvers utilizados de scipy fueron :
+     * solver de scipy con symmetric
+     * solver de scipy con overwrite
+     * solver de scipy con check_finite
+     * solver de scipy 
+     * scipy con metodo Inv
+     * solver de numpy
+     
+  * lo que realiza simmetric es convertir la matriz A en una matriz simetrica y definida positiva
+  * overwrite permite sobreescribir datos, lo que podría convertirse en una mejora de rendimiento.
+  * check_finite lo que realiza es chequear que las matrices de entrada contengan sólo números finitos
+  * por otro lado, el solver de scipy y numpy sin ningun parametro, resuelve el sistema de manera normal. sin embargo, si la matriz de datos es de algún tipo particular, la cadena de datos asume automaticamente eso.
+  
+  * Como se puede apreciar en el grafico y como es de esperarse, (solo en algunos casos), el solver scipy sin parametro, es el metodo de resolucion más lenta para una matriz de tamaño menor a 10. para matrices de tamaño alto(matrices mayor a 1000) se observa que el a pesar de que todos los solvers tienden a un equilibrio en terminos de demora, los más lentos son el metodo de INV de scipy y tambien en menor medida, sigue apareciendo el solver de scipy sin parametro. Por otro lado, el solver que se mantuvo más constante, y relativamente más rapido fue el solver de scipy con parametro symmetric, lo cual era de esperarse que se obtuviera una ganancia de desempeño(minima). Tambien el solver que reacciono más rapido para matrices muy pequeñas(menor a 10) fue el solver de numpy.
+  * Finalmente se concluye, en base a las diferentes corridas que el alumno hizo antes de presentar el trabajo, que el metodo de symmetric, puede generar una ganancia de desempeño, independiente el tamaño de la matriz, y que a matrices de tamaño elevadas, el metodo de INV de scipy es el que más demora.
+   
+  
   ### GRAFICO : 
    
   * ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/ENTREGA6.png?raw=true)
