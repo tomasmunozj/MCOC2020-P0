@@ -196,6 +196,16 @@
   
   * ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/MATMUL%20M%20DISPERSO.png?raw=true)
   
+  ## PREGUNTAS:
+  
+   * Comente las diferencias que ve en el comportamiento de los algoritmos en el caso de matrices llenas y dispersas.
+   
+   * ¿Cual parece la complejidad asintótica N→∞  para el ensamblado y solución en ambos casos y porqué?
+   
+   * ¿Como afecta el tamaño de las matrices al comportamiento aparente?
+   
+   * ¿Qué tan estables son las corridas (se parecen todas entre si siempre, nunca, en un rango)?
+   
   
   ## COMPLEJIDAD ALGORITMICA DE SOLVER :
   
@@ -207,6 +217,16 @@
   
   * ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/SOLVE%20M%20DISPERSA.png?raw=true)
   
+   ## PREGUNTAS:
+  
+   * Comente las diferencias que ve en el comportamiento de los algoritmos en el caso de matrices llenas y dispersas.
+   
+   * ¿Cual parece la complejidad asintótica N→∞  para el ensamblado y solución en ambos casos y porqué?
+   
+   * ¿Como afecta el tamaño de las matrices al comportamiento aparente?
+   
+   * ¿Qué tan estables son las corridas (se parecen todas entre si siempre, nunca, en un rango)?
+  
   
   ## COMPLEJIDAD ALGORITMICA DE INV :
   
@@ -217,6 +237,16 @@
   ### GRAFICO MATRIZ DISPERSA:
   
   * ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/INV%20M%20DISPERSA.png?raw=true)
+  
+   ## PREGUNTAS:
+  
+   * Comente las diferencias que ve en el comportamiento de los algoritmos en el caso de matrices llenas y dispersas.
+   
+   * ¿Cual parece la complejidad asintótica N→∞  para el ensamblado y solución en ambos casos y porqué?
+   
+   * ¿Como afecta el tamaño de las matrices al comportamiento aparente?
+   
+   * ¿Qué tan estables son las corridas (se parecen todas entre si siempre, nunca, en un rango)?
   
 
   
