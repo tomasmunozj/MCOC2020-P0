@@ -188,23 +188,35 @@
   
   ## COMPLEJIDAD ALGORITMICA DE MATMUL :
   
-  ### GRAFICO MATRIZ LLENA
+  ### GRAFICO MATRIZ LLENA:
   
-  ### GRAFICO MATRIZ DISPERSA
+  * ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/MATMUL%20M%20LLENA.png?raw=true)
+  
+  ### GRAFICO MATRIZ DISPERSA:
+  
+  * ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/MATMUL%20M%20DISPERSO.png?raw=true)
   
   
   ## COMPLEJIDAD ALGORITMICA DE SOLVER :
   
-  ### GRAFICO MATRIZ LLENA
+  ### GRAFICO MATRIZ LLENA:
   
-  ### GRAFICO MATRIZ DISPERSA
+  * ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/SOLVE%20M%20LLENA.png?raw=true)
+  
+  ### GRAFICO MATRIZ DISPERSA:
+  
+  * ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/SOLVE%20M%20DISPERSA.png?raw=true)
   
   
   ## COMPLEJIDAD ALGORITMICA DE INV :
   
-  ### GRAFICO MATRIZ LLENA
+  ### GRAFICO MATRIZ LLENA:
   
-  ### GRAFICO MATRIZ DISPERSA
+  * ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/INV%20M%20LLENA.png?raw=true)
+  
+  ### GRAFICO MATRIZ DISPERSA:
+  
+  * ![alt text](https://github.com/tomasmunozj/MCOC2020-P0/blob/master/INV%20M%20DISPERSA.png?raw=true)
   
 
   
