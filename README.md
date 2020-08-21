@@ -200,12 +200,19 @@
   
    * Comente las diferencias que ve en el comportamiento de los algoritmos en el caso de matrices llenas y dispersas.
    
+      * En este caso, (matmul) es decir, multiplicacion de matrices, el comportamiento entre matrices llenas y dispersas es altamente notorio, principalmente para el tiempo de solucion, tal como se aprecia en los gráficos, la diferencia en el tiempo de solucion es más de 10 segundos entre matrices dispersas y llenas, lo cual es demasiado. Por otro lado, el tiempo de ensamblaje es literalmente el mismo para matrices dispersas y llenas.
+   
    * ¿Cual parece la complejidad asintótica N→∞  para el ensamblado y solución en ambos casos y porqué?
+   
+      * respuesta
    
    * ¿Como afecta el tamaño de las matrices al comportamiento aparente?
    
+      * respuesta
+   
    * ¿Qué tan estables son las corridas (se parecen todas entre si siempre, nunca, en un rango)?
    
+      * En mi caso, las corridas acá fueron bastante estables, tanto para matrices dispersas como para matrices llenas, resultando así, diferencias con el gráfico del profesor/ayudante, ya que en su gráfico se observa bastante inestabilidad en las corridas. En mi caso hubo una pequeña inestabilidad para tamaños pequeño de matrices, es decir, N=2,3 y sólo en algunas corridas, en mi caso se realizaron 5 corridas por cada gráfico. A medida que iba aumentando el tamaño de las matrices, es decir N>20 aprox,  se observa una estabilidad bastante buena y con practicamente ningun bump. Es importate destacar un fenomeno muy particular que ocurre en el tiempo de solucion para matrices dispersas, que a medida que aumenta el tamaño de matriz N, el tiempo de solucion se mantiene practicamente constante, variando practicamente súper poco, entre 1 y 10 ms, lo cual es raro, ya que la lógica dice que a medida que las matrices sean más grandes, mayor debiera ser el tiempo que tarda en resolver.
   
   ## COMPLEJIDAD ALGORITMICA DE SOLVER :
   
@@ -221,11 +228,19 @@
   
    * Comente las diferencias que ve en el comportamiento de los algoritmos en el caso de matrices llenas y dispersas.
    
+      * En este caso, (solver) resolución de un sistema Ax=b, es muy parecido a las diferencias que se apreciaron en la multiplicación de matrices, debido a que el comportamiento entre matrices llenas y dispersas es también altamente notorio, principalmente para el tiempo de solución, ya que la diferencia en el tiempo de solución es aprox de 10 segundos entre matrices dispersas y llenas, lo cual reitero que es demasiado para ser el mismo algoritmo pero con diferentes matrices. Y también por otro lado, el tiempo de ensamblaje acá son muy parecidos entre matrices dispersas y llenas.
+   
    * ¿Cual parece la complejidad asintótica N→∞  para el ensamblado y solución en ambos casos y porqué?
+   
+      * respuesta
    
    * ¿Como afecta el tamaño de las matrices al comportamiento aparente?
    
+      * respuesta
+   
    * ¿Qué tan estables son las corridas (se parecen todas entre si siempre, nunca, en un rango)?
+   
+      * En este caso, y es importante destacar, se observa una inestabilidad con muchos bumps en el tiempo de solución para el caso de matrices llenas, en un rango de tamaño de matriz entre aprox 5 y 100, es decir, para 5<N<100 se produce una inestabilidad en algunas corridas, en mi caso fueron 1 o 2 corridas con inestabilidad. También es importante destacar al igua que en el caso de multiplicación de matrices, que en el caso de tiempo de solucion para la matriz dispersa, las corridas resultaron practicamente horizontales, a medida que crecia el tamaño de la matriz N, es decir, independiente del tamaño de la matriz, el tiempo de solucion era practicamente el mismo, lo cual es súper particular, ya que a medida que aumenta el tamaño de la matriz N, el tiempo de solución debiera ser mayor, lo cual en este caso no ocurrió. (tal vez para tamaños de matrices mayores a 10.000 podria haber ocurrido, pero en mi caso no se puedo probar ya que para N>10.000 se demoraba demasiado en correr el programa.
   
   
   ## COMPLEJIDAD ALGORITMICA DE INV :
@@ -242,11 +257,15 @@
   
    * Comente las diferencias que ve en el comportamiento de los algoritmos en el caso de matrices llenas y dispersas.
    
+      * En este caso,las diferencias son minimas, practicamente no hay diferencias. Por ejemplo en terminos de tiempo de ensamblaje y solución, son iguales ya sea para matrices dispersas y llenas.
+   
    * ¿Cual parece la complejidad asintótica N→∞  para el ensamblado y solución en ambos casos y porqué?
    
    * ¿Como afecta el tamaño de las matrices al comportamiento aparente?
    
    * ¿Qué tan estables son las corridas (se parecen todas entre si siempre, nunca, en un rango)?
+   
+      * En este caso, las corridas son estables en todos los casos, excepto para el tiempo de solución en matriz llena, ya que se producen una serie de bumps bastante bruscos para tamaños de matrices entre 0 y 500, despues de eso se encuentra una estabilidad bastante buena, al igual que los demás. 
   
 
   
