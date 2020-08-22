@@ -204,7 +204,7 @@
    
    * ¿Cual parece la complejidad asintótica N→∞  para el ensamblado y solución en ambos casos y porqué?
    
-      * respuesta
+      * Tal como vimos en clases, en la medida que crece el algoritmo, es decir, la linea de color gris en el grafico, alguna de las lineas de colores, es decir los O(N), O(N^2) etc... tiende a ser paralela a la linea de color gris (algoritmo). Lo que quiero decir es que en el grafico, alguna de las lineas de colores va a antender a ser paralela a la linea de color gris del gráfico, es decir, tendran la misma pendiente. Por lo tanto, en este caso, que estamos resolviendo una multiplicacion de matrices, la complejidad asintotica cuando n tiende a infinito, tendera siempre a O(N^2), tal como se ve en el gráfico que la linea gris tiende a tener la misma pendiente que la linea de color verde, que es la que tiene orden 2 .
    
    * ¿Como afecta el tamaño de las matrices al comportamiento aparente?
    
@@ -232,7 +232,7 @@
    
    * ¿Cual parece la complejidad asintótica N→∞  para el ensamblado y solución en ambos casos y porqué?
    
-      * respuesta
+      * 
    
    * ¿Como afecta el tamaño de las matrices al comportamiento aparente?
    
@@ -261,6 +261,8 @@
    
    * ¿Cual parece la complejidad asintótica N→∞  para el ensamblado y solución en ambos casos y porqué?
    
+      * Siguiendo con la idea de complejidad asintotica que se vió en clases, y como se ha mencionado anteriormente, en este caso, como estamos frente a una ivnersión de matrices, a medida que N tiende a infinito, el algoritmo, o mejor dicho la linea gris del grafico, debiera tender a un orden 3, es decir, deberia tender a O(N^3), la cual vendria siendo la linea de color roja en el grafico. Si vemos bien el gráfico en un principio pareciera tender a la linea verde, es decir a orden 2, pero a medida que aumenta el tamaño de N, se aprecia claramente que se empieza a parecer a la pendiente de la linea roja.
+   
    * ¿Como afecta el tamaño de las matrices al comportamiento aparente?
    
    * ¿Qué tan estables son las corridas (se parecen todas entre si siempre, nunca, en un rango)?
@@ -268,9 +270,48 @@
       * En este caso, las corridas son estables en todos los casos, excepto para el tiempo de solución en matriz llena, ya que se producen una serie de bumps bastante bruscos para tamaños de matrices entre 0 y 500, despues de eso se encuentra una estabilidad bastante buena, al igual que los demás. 
       
       
-      ## CODIGO UTILIZADO PARA ENSAMBLAJE MATRIZ LAPLACIANA LLENA
+   ## CODIGO UTILIZADO PARA ENSAMBLAJE MATRIZ LAPLACIANA LLENA
       
-      ## CODIGO UTILIZADO PARA ENSAMBLAJE MATRIZ LAPLACIANA DISPERSA
+      ```
+      def matriz_laplaciana_llena(N, dtype=np.double):
+    
+    A = np.identity(N,dtype)*2
+    
+    for i in range (N):
+        
+        for j in range (N):
+            
+            if i+1 == j:
+                A[i,j] = -1            
+                
+            if i-1 == j:
+                A[i,j] = -1
+                
+    return A
+      ```
+      
+   ## CODIGO UTILIZADO PARA ENSAMBLAJE MATRIZ LAPLACIANA DISPERSA
+      
+      ```
+      def matriz_laplaciana_dispersa(N, dtype=np.double):
+    
+    A = lil_matrix((N,N))
+    
+    for i in range (N):
+        
+        for j in range (N):
+            
+            if i == j:
+                A[i,j] = 2
+            
+            if i+1 == j:
+                A[i,j] = -1            
+                
+            if i-1 == j:
+                A[i,j] = -1
+                
+    return A
+      ```
   
 
   
