@@ -266,6 +266,11 @@
    * ¿Qué tan estables son las corridas (se parecen todas entre si siempre, nunca, en un rango)?
    
       * En este caso, las corridas son estables en todos los casos, excepto para el tiempo de solución en matriz llena, ya que se producen una serie de bumps bastante bruscos para tamaños de matrices entre 0 y 500, despues de eso se encuentra una estabilidad bastante buena, al igual que los demás. 
+      
+      
+      ## CODIGO UTILIZADO PARA ENSAMBLAJE MATRIZ LAPLACIANA LLENA
+      
+      ## CODIGO UTILIZADO PARA ENSAMBLAJE MATRIZ LAPLACIANA DISPERSA
   
 
   
