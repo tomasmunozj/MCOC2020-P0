@@ -208,7 +208,7 @@
    
    * ¿Como afecta el tamaño de las matrices al comportamiento aparente?
    
-      * respuesta
+      * En este caso, para matrices dispersas y llenas se viene a la cabeza inmediatamente, que a medida que aumenta el tamaño de la matriz N, aumenta el tiempo de ensamblaje y de solución, lo que a simple vista se puede apreciar en el gráfico este comportamiento, y tambien es lo que se espera a medida que N sea muy grande.
    
    * ¿Qué tan estables son las corridas (se parecen todas entre si siempre, nunca, en un rango)?
    
@@ -232,11 +232,11 @@
    
    * ¿Cual parece la complejidad asintótica N→∞  para el ensamblado y solución en ambos casos y porqué?
    
-      * 
+      * Este caso es bastante particular para matrices dispersas, y vale la pena mencionarlo con fuerza, ya que acá el algoritmo no tiende a un orden 2, o a un orden 3, al igual que los otros casos, si no que no tiende a ningun orden a medida que N tiende a infinito, ya que se mantiene constante. Por otro lado, en matrices llenas, en un principio se podria decir que se tiende a un orden 2, o tal vez a un orden 3, pero si observamos bien para tamaños de N muy grandes, este más bien tenderá a un orden 1, es decir, a la pendiente de la linea naranja.
    
    * ¿Como afecta el tamaño de las matrices al comportamiento aparente?
    
-      * respuesta
+      * Al igual que en el caso anterior se espera un comportamiento "lineal", es decir a medida que aumenta N, aumenta el tiempo de ensamblaje. Esto en este caso ocurre para las matrices llenas, sin embargo para las matrices dispersas no se cumple, ya que como se observa en el grafico, a medida que aumenta N, el tiempo aparentemente se mantiene constante.
    
    * ¿Qué tan estables son las corridas (se parecen todas entre si siempre, nunca, en un rango)?
    
@@ -264,6 +264,8 @@
       * Siguiendo con la idea de complejidad asintotica que se vió en clases, y como se ha mencionado anteriormente, en este caso, como estamos frente a una ivnersión de matrices, a medida que N tiende a infinito, el algoritmo, o mejor dicho la linea gris del grafico, debiera tender a un orden 3, es decir, deberia tender a O(N^3), la cual vendria siendo la linea de color roja en el grafico. Si vemos bien el gráfico en un principio pareciera tender a la linea verde, es decir a orden 2, pero a medida que aumenta el tamaño de N, se aprecia claramente que se empieza a parecer a la pendiente de la linea roja.
    
    * ¿Como afecta el tamaño de las matrices al comportamiento aparente?
+   
+      * En este caso, se cumple el mismo comportamiento del caso matmul ( multiplicación de matrices ), a medida que aumenta N, se espera un aumenta del tiempo de ensamblaje y de solucion, para matrices dispersas y llenas. Esto se corrobora en el gráfico. 
    
    * ¿Qué tan estables son las corridas (se parecen todas entre si siempre, nunca, en un rango)?
    
